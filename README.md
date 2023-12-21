@@ -5,4 +5,11 @@ Project objective are :
 - Data Cleaning.
 - Data Transformation.
 - Data Visualization.
-All performed by using Python.
+## Project Summary 
+- Develop Python scripts for data transformation, focusing on cleaning and preprocessing data for analysis. Tasks include managing missing values, formatting, normalization.
+- Conduct exploratory data analysis and apply analytical methods to real-world datasets using Python libraries such as Pandas, Numpy.
+- Utilize dataframes to manipulate data, generate data summaries, comprehend data distributions, conduct correlation analyses, and establish data pipelines.
+- Utilize Python libraries, including Matplotlib, Seaborn to implement compelling data visualization techniques and plots that narrate a captivating story.
+- Generate various chart types, such as line graphs, area plots, histograms, bar charts, pie charts, box plots, and scatter plots.
+- Perform data analysis and visualization in a Jupyter Notebook
+- The combination of Jupyter Notebooks and CSV file facilitates a flexible and transparent workflow for data processing, analysis, and visualization in this Python project.
