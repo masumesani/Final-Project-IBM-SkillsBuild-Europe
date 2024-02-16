@@ -1,4 +1,4 @@
-# Finding Your NYC Sweet Spot: Balancing Budget and Vibe with Airbnb Data
+# Price it Right: Data-Driven Insights for Airbnb Hosts
 # 📝 Table of Contents
 - [About](#about)
 - [Business Understanding](#business-understanding)
