@@ -61,7 +61,7 @@ This dataset offers a robust collection of information on Airbnb listings across
 - Location data: Neighborhood, latitude, longitude.
 - Calendar data: Availability and price per date.
 - Host data: Host ID and other relevant information (optional).
-- 
+  
 **Why This Dataset:**
 
 The Airbnb Open Data presents several advantages for our project:
@@ -69,6 +69,10 @@ The Airbnb Open Data presents several advantages for our project:
 - Publicly available: Freely accessible, promoting open-source analysis and reproducibility.
 - Comprehensive: Covers crucial aspects like location, listing details, and pricing information.
 - Sizeable: Contains a substantial number of listings, enabling statistically significant insights.
+> [!NOTE] 
+> Based on link provided for this project, data set is about New York city, since there is no counties as brookln and manhatan, it seems they are unintentional data entry error which can affect overall data quality and analysises.<br/> 
+> As such, I decided to address it and update my data set accordingly. Although mentioned correction in average price calculation against Neighbourhood Group does not show changes but in analysing booked days we can see different results.<br/> 
+> There are also 13 row of with minimum night of negative value which I catch them by running  AirbnbData[AirbnbData['minimum_nights']<0] but I decided to go with them and filter them further down the road.
 
 ## Visualization and Result <a name="visualization"></a>
 ### Key Findings
@@ -93,6 +97,8 @@ These findings offer valuable insights for Airbnb hosts:<br/>
 2. Evaluate cancellation policies for potential trade-offs between flexibility and booking security.<br/>
 3. Prioritize listing optimization in premium neighborhoods like Queens to capitalize on higher rental potential.<br/>
 
+### Visualization
+Please checck https://github.com/masumesani/Final-Project-IBM-SkillsBuild-Europe/blob/main/Visualizations%20.md
 
 ## Technologies <a name="techs"></a>
 - Python and Python libraries like Numpy, Pandas, Matplotlib, Seaborn
