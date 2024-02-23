@@ -111,7 +111,8 @@ Please checck https://github.com/masumesani/Final-Project-IBM-SkillsBuild-Europe
 - Open Jupyter Notebook
 ## Approach <a name="approach"></a>
 The analysis examined a sample Airbnb dataset, focusing on room type, cancellation policy, and neighborhood pricing.
-Descriptive statistics were employed to calculate counts, averages, and identify the most expensive neighborhood.
+Descriptive and inferential statistics methods were employed to calculate counts, averages, and identify the most expensive neighborhood and evaluate corelations between price and service fee, price and host verification status.
+
 ## Status <a name="status"></a>
 Completed
 ## Credits <a name="credits"></a>
